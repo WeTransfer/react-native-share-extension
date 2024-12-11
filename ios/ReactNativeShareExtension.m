@@ -263,4 +263,9 @@ typedef void (^ProviderCallback)(NSString *content, NSString *contentType, BOOL 
   }
 }
 
++ (BOOL)requiresMainQueueSetup
+{
+  return NO;
+}
+
 @end
